@@ -108,6 +108,8 @@ function App() {
         </div>
 
         <h1>Transfer Map</h1>
+        <p>Front-end: <a href='https://github.com/vknowable/transfer-map/tree/main'>https://github.com/vknowable/transfer-map/tree/main</a></p>
+        <p>Back-end: <a href='https://github.com/vknowable/transfer-map-backend/tree/master'>https://github.com/vknowable/transfer-map-backend/tree/master</a></p>
         <button onClick={() => refreshData(endpoint)}>Refresh</button>
       </div>
       <div className='graph-container' ref={graphContainer}>

@@ -25,6 +25,19 @@ h1 {
   color: #FFF;
 }
 
+p {
+  color: #888;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #0AA;
+}
+a:visited {
+  color: #0AA;
+}
+
 button {
   display: inline-block;
   background-color: #FF0;
@@ -33,7 +46,7 @@ button {
   border-radius: 200px;
   font-size: 1em;
   padding: 0.75em 1.25em;
-  margin: 0.53m 1.25em;
+  margin: 1.25em;
   text-align: center;
   cursor: pointer;
   font-family: "Space Grotesk", sans-serif;
