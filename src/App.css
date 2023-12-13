@@ -1,0 +1,71 @@
+.header {
+  background-color: rgb(14,14,14);
+  border-bottom: 2px solid rgb(40,40,40);
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 2em;
+}
+
+.graph-container {
+  width: 90%;
+  height: 640px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(26,26,26);
+  border-radius: 24px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #FFF;
+}
+
+button {
+  display: inline-block;
+  background-color: #FF0;
+  color: #000;
+  border: none;
+  border-radius: 200px;
+  font-size: 1em;
+  padding: 0.75em 1.25em;
+  margin: 0.53m 1.25em;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  transition: top 0.25s, background-color 0.25s;
+}
+button:hover {
+  background-color: #ED0;
+  top: -2px;
+}
+
+/* Eyes from https://codepen.io/whipcat/pen/ExKPQqZ */
+.container {
+  width: auto;
+}
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background: #CCC;
+}
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 17px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  content: " ";
+}
