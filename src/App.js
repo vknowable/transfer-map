@@ -19,7 +19,7 @@ const options = {
     borderWidth: 2,
     margin: 10,
     shapeProperties: { borderRadius: 8 },
-    font: { color: '#121212', size: 16 }
+    font: { color: '#121212', size: 12 }
   },
 };
 
@@ -108,10 +108,11 @@ function App() {
         </div>
 
         <h1>Transfer Map</h1>
-        <p>Front-end: <a href='https://github.com/vknowable/transfer-map/tree/main'>https://github.com/vknowable/transfer-map/tree/main</a></p>
-        <p>Back-end: <a href='https://github.com/vknowable/transfer-map-backend/tree/master'>https://github.com/vknowable/transfer-map-backend/tree/master</a></p>
+        <p>Front-end: <a href='https://github.com/vknowable/transfer-map/tree/main'>https://github.com/vknowable/transfer-map</a></p>
+        <p>Back-end: <a href='https://github.com/vknowable/transfer-map-backend/tree/master'>https://github.com/vknowable/transfer-map-backend</a></p>
         <button onClick={() => refreshData(endpoint)}>Refresh</button>
       </div>
+      <p style={{ marginTop: "2em", textAlign: "center" }}>Click and drag nodes for a better view or use scroll wheel to zoom in/out</p>
       <div className='graph-container' ref={graphContainer}>
         <Graph graph={graph} options={options} events={events} style={{ height: "640px" }} />
       </div>
